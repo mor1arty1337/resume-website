@@ -1,3 +1,24 @@
+@media screen and (max-width: 768px) {
+    .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .sidebar {
+        width: 100%; 
+    }
+}
+@media screen and (max-width: 768px) {
+    .my-name {
+        font-size: 30px; 
+        line-height: 40px; 
+    }
+
+    .my-descr {
+        font-size: 12px; 
+        line-height: 20px; 
+    }
+}
+
 body {
     background: #e4eef6;
     padding: 40px 40px 40px 40px;
@@ -24,6 +45,7 @@ ol {
 .main-content {
     padding: 88px 80px 40px 80px;
     box-sizing: border-box;
+    max-width: 100%; 
 }
 
 /* Sidebar */
