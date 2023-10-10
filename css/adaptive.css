@@ -5,11 +5,213 @@
     
 }
 @media screen and (max-width: 375px) /*375*/ {
+    body {
+        padding: 25px 25px 25px 40px;
+        max-width: 714px;
+        max-height: 674px;
+    }
+    .wrapper {
+        max-width: 714px;
+        max-height: 674px;
+    }
+        /* Main content */
+    .main-content {
+        padding: 40px 40px 20px 40px;
+        box-sizing: border-box;
+        max-width: 100%; 
+    }
+
+    /* Sidebar */
+    .sidebar {
+        background: #DCDCDC;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        width: 240px;
+    }
+    img{
+        max-width: 240px;
+        max-height: 320px; 
+    }
     
+
+    
+    .sidebar-content {
+        padding-left: 7px;
+        padding-top: 7px;
+        padding-right: 7px;
+        box-sizing: border-box;
+    }
+
+
+    /* Contacts */
+
+    .contacts-type {
+        color: #161D2A;
+        font-size: 7px;
+        font-weight: 100;
+        line-height: 10px;
+        margin-right: 8px;
+    }
+
+    .contacts-link {
+        color: #2979FF;
+        font-size: 7px;
+        font-weight: 100;
+        line-height: 7px;
+        text-decoration-line: underline;
+    }
+
+    .contacts-item {
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .contacts-container {
+        margin-bottom: 7px;
+    }
+
+    .title {
+        color: #161D2A;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .skills-container {
+        margin-bottom: 5px;
+    }
+
+    .skills-list {
+        padding-left: 16px;
+    }
+
+    .skills-list-item {
+        color: #161D2A;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
+    /* Main content */
+
+    .my-proffesion {
+        color: #000;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 17px;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .my-name {
+        color: #000;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 55px;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+
+    .my-descr {
+        color: #595959;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 0;
+    }
+
+    .my-info {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+
+    /* Projects */
+
+    .my-projects {
+        margin-bottom: 10px;
+    }
+
+    .projects {
+        color: #000;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .project-item {
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .projects-list {
+        padding-left: 16px;
+    }
+
+    .project-item-link {
+        color: #005FFF;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-decoration-line: underline;
+    }
+
+    .project-item-tech {
+        color: #595959;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    /* Education */
+
+    .my-education {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .education-title {
+        color: #000;
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+    .education-school {
+        color: #000000;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+    .education-university {
+        color: #000000;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .education-speciality {
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
 }
 @media screen and (max-width: 320px) /*320*/ {
     body {
-        padding: 5px 5px 5px 5px;
+        padding: 25px 25px 25px 40px;
         max-width: 714px;
         max-height: 674px;
     }
