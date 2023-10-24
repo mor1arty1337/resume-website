@@ -1,12 +1,11 @@
 @media screen and (max-width: 425px) /*425*/ {
     body {
+        overflow-x: hidden;
         padding: 25px 25px 25px 25px;
         max-width: 425px;
-        max-height: 674px;
     }
     .wrapper {
         max-width: 400px;
-        max-height: 674px;
         display: flex;
         flex-direction: column;
     }
@@ -203,13 +202,12 @@
 }
 @media screen and (max-width: 375px) /*375*/ {
     body {
+        overflow-x: hidden;
         padding: 15px 15px 15px 15px;
         max-width: 375px;
-        max-height: 674px;
     }
     .wrapper {
         max-width: 350px;
-        max-height: 674px;
         display: flex;
         flex-direction: column;
     }
@@ -405,13 +403,12 @@
 }
 @media screen and (max-width: 320px) /*320*/ {
     body {
+        overflow-x: hidden;
         padding: 15px 25px 25px 15px;
         max-width: 320px;
-        max-height: 674px;
     }
     .wrapper {
-        max-width: 295px;
-        max-height: 674px;
+        max-width: 290px;
         display: flex;
         flex-direction: column;
     }
