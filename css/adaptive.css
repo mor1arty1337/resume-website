@@ -90,6 +90,23 @@
         line-height: 20px;
     }
 
+    .languages-container{
+        margin-bottom: 5px;
+    }
+    
+    .languages-list {
+        padding-left: 16px;
+    }
+    
+    .language-list-item {
+        color: #161D2A;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    
+
 
     /* Main content */
 
@@ -285,6 +302,21 @@
     }
 
     .skills-list-item {
+        color: #161D2A;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .languages-container{
+        margin-bottom: 5px;
+    }
+    
+    .languages-list {
+        padding-left: 16px;
+    }
+    
+    .language-list-item {
         color: #161D2A;
         font-size: 16px;
         font-weight: 400;
@@ -487,6 +519,21 @@
     }
 
     .skills-list-item {
+        color: #161D2A;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .languages-container{
+        margin-bottom: 5px;
+    }
+    
+    .languages-list {
+        padding-left: 16px;
+    }
+    
+    .language-list-item {
         color: #161D2A;
         font-size: 16px;
         font-weight: 400;
